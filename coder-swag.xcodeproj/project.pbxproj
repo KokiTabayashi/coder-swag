@@ -13,6 +13,8 @@
 		E79E7EA0206C94D800CA7591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E9F206C94D800CA7591 /* Assets.xcassets */; };
 		E79E7EA3206C94D800CA7591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79E7EA1206C94D800CA7591 /* LaunchScreen.storyboard */; };
 		E79E7EAE206C9D4600CA7591 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E7EAD206C9D4600CA7591 /* CategoryCell.swift */; };
+		E79E7EB0206CABA000CA7591 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E7EAF206CABA000CA7591 /* Category.swift */; };
+		E79E7EB3206CADEB00CA7591 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E7EB2206CADEB00CA7591 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E79E7EA2206C94D800CA7591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E79E7EA4206C94D800CA7591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E79E7EAD206C9D4600CA7591 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		E79E7EAF206CABA000CA7591 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E79E7EB2206CADEB00CA7591 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		E79E7E97206C94D800CA7591 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				E79E7EB1206CADD800CA7591 /* Services */,
 				E79E7EAC206C9CD600CA7591 /* View */,
 				E79E7EAB206C9CB300CA7591 /* Model */,
 				E79E7EAA206C9CA500CA7591 /* Controller */,
@@ -79,6 +84,7 @@
 		E79E7EAB206C9CB300CA7591 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E79E7EAF206CABA000CA7591 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				E79E7EAD206C9D4600CA7591 /* CategoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E79E7EB1206CADD800CA7591 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E79E7EB2206CADEB00CA7591 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +180,8 @@
 				E79E7E9B206C94D800CA7591 /* CategoriesVC.swift in Sources */,
 				E79E7E99206C94D800CA7591 /* AppDelegate.swift in Sources */,
 				E79E7EAE206C9D4600CA7591 /* CategoryCell.swift in Sources */,
+				E79E7EB0206CABA000CA7591 /* Category.swift in Sources */,
+				E79E7EB3206CADEB00CA7591 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
