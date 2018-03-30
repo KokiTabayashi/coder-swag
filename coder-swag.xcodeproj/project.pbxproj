@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E73C8F05206DE4AB007697F7 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73C8F04206DE4AB007697F7 /* ProductCell.swift */; };
 		E79E7E99206C94D800CA7591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E7E98206C94D800CA7591 /* AppDelegate.swift */; };
 		E79E7E9B206C94D800CA7591 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E7E9A206C94D800CA7591 /* CategoriesVC.swift */; };
 		E79E7E9E206C94D800CA7591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E9C206C94D800CA7591 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E73C8F04206DE4AB007697F7 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		E79E7E95206C94D800CA7591 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79E7E98206C94D800CA7591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E79E7E9A206C94D800CA7591 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				E79E7EAD206C9D4600CA7591 /* CategoryCell.swift */,
+				E73C8F04206DE4AB007697F7 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				E79E7E9B206C94D800CA7591 /* CategoriesVC.swift in Sources */,
 				E79E7E99206C94D800CA7591 /* AppDelegate.swift in Sources */,
 				E79E7EAE206C9D4600CA7591 /* CategoryCell.swift in Sources */,
+				E73C8F05206DE4AB007697F7 /* ProductCell.swift in Sources */,
 				E79E7EB0206CABA000CA7591 /* Category.swift in Sources */,
 				E79E7EB3206CADEB00CA7591 /* DataService.swift in Sources */,
 			);
